@@ -909,11 +909,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\LoggingLibrary\\LoggingLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\LoggingLibrary\\LoggingLibrary.csproj",
       "projectName": "LoggingLibrary",
-      "projectPath": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\LoggingLibrary\\LoggingLibrary.csproj",
+      "projectPath": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\LoggingLibrary\\LoggingLibrary.csproj",
       "packagesPath": "C:\\Users\\anike\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\LoggingLibrary\\obj\\",
+      "outputPath": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\LoggingLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

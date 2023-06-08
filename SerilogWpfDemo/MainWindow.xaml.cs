@@ -16,11 +16,26 @@ namespace SerilogWpfDemo
             _loggerManager = ((App)Application.Current).LoggerManager;
         }
 
+        static string GetSystemDetails()
+        {
+        string osVersion = Environment.OSVersion.ToString();
+        string machineName = Environment.MachineName;
+        string processorCount = Environment.ProcessorCount.ToString();
+        string dotNetVersion = Environment.Version.ToString();
+
+        string systemDetails = $"OS Version: {osVersion}\n" +
+                               $"Machine Name: {machineName}\n" +
+                               $"Processor Count: {processorCount}\n" +
+                               $".NET Version: {dotNetVersion}";
+
+        return systemDetails;
+        } 
         private async void LogButton_Click(object sender, RoutedEventArgs e)
         {
             _operationCounter++;
             var operationName = $"Operation {_operationCounter}";
             _loggerManager.LogDebug("Starting operation: {OperationName}", operationName);
+            string sys = GetSystemDetails();
 
             try
             {
@@ -38,7 +53,7 @@ namespace SerilogWpfDemo
             }
             finally
             {
-                // Hide the progress bar
+                _loggerManager.LogInformation( $"{operationName} performed successfully. {sys}", operationName);
                 OperationProgress.Visibility = Visibility.Collapsed;
             }
         }
@@ -47,15 +62,15 @@ namespace SerilogWpfDemo
         {
             // Simulate a time-consuming operation
             await Task.Delay(2000);
-
+            string sys = GetSystemDetails();
             // Throw different exceptions based on the operation counter
             if (_operationCounter % 3 == 0)
             {
-                throw new InvalidOperationException("Error during operation (InvalidOperationException).");
+                throw new InvalidOperationException($"Error during operation (InvalidOperationException). {sys}");
             }
             else if (_operationCounter % 4 == 0)
             {
-                throw new ArgumentException("Error during operation (ArgumentException).");
+                throw new ArgumentException($"Error during operation (ArgumentException). {sys}");
             }
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PlKs4P6P79caiu/X1rA6YtUaaDorjB+FWT1FBxfJzMyr0rY59IPsjrigN1DdG16e+nYbSAuws7+yF0g8tu5H8A==",
+  "dgSpecHash": "EUt3WowOYlFXyLmx6JQVESG+iKGW2q1aAh4ZvkiJFxyGZp1wiM4XXuzOLPV9w6ppx4KG2cyJinBGaRTq1WJ4+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\LoggingLibrary\\LoggingLibrary.csproj",
+  "projectFilePath": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\LoggingLibrary\\LoggingLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anike\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\anike\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

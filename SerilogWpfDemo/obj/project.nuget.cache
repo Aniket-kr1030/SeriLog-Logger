@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jpEj5ekhPlV920mFt88cCdYij6iIm3RMRxHsUvFlvfjovNnW3UKQDsmtgNg9MGRrYrzAZzHnhZjfw5/Aybs59w==",
+  "dgSpecHash": "NgPY4o54Kg/w2TJoOD+IxRx9pFakapJWrD2nRF0Rla3it2uNUd2yMo/xsjJkQAiu13v9gH+2bjagcV89ndOeSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\SerilogWpfDemo\\SerilogWpfDemo.csproj",
+  "projectFilePath": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\SerilogWpfDemo\\SerilogWpfDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anike\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\anike\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\SerilogWpfDemo\\SerilogWpfDemo.csproj": {}
+    "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\SerilogWpfDemo\\SerilogWpfDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\LoggingLibrary\\LoggingLibrary.csproj": {
+    "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\LoggingLibrary\\LoggingLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\LoggingLibrary\\LoggingLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\LoggingLibrary\\LoggingLibrary.csproj",
         "projectName": "LoggingLibrary",
-        "projectPath": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\LoggingLibrary\\LoggingLibrary.csproj",
+        "projectPath": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\LoggingLibrary\\LoggingLibrary.csproj",
         "packagesPath": "C:\\Users\\anike\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\LoggingLibrary\\obj\\",
+        "outputPath": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\LoggingLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\SerilogWpfDemo\\SerilogWpfDemo.csproj": {
+    "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\SerilogWpfDemo\\SerilogWpfDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\SerilogWpfDemo\\SerilogWpfDemo.csproj",
+        "projectUniqueName": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\SerilogWpfDemo\\SerilogWpfDemo.csproj",
         "projectName": "SerilogWpfDemo",
-        "projectPath": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\SerilogWpfDemo\\SerilogWpfDemo.csproj",
+        "projectPath": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\SerilogWpfDemo\\SerilogWpfDemo.csproj",
         "packagesPath": "C:\\Users\\anike\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\SerilogWpfDemo\\obj\\",
+        "outputPath": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\SerilogWpfDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -119,8 +119,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\LoggingLibrary\\LoggingLibrary.csproj": {
-                "projectPath": "C:\\Users\\anike\\OneDrive\\Documents\\Cognizant\\LoggingLibrary\\LoggingLibrary.csproj"
+              "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\LoggingLibrary\\LoggingLibrary.csproj": {
+                "projectPath": "C:\\Users\\anike\\OneDrive\\Documents\\GitHub\\SeriLog-Logger\\LoggingLibrary\\LoggingLibrary.csproj"
               }
             }
           }
